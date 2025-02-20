@@ -17,6 +17,8 @@ from modules.shared import ROOT_DIR
 
 from .config import TrainConfig
 
+MATPLOTLIB_FLAG = False
+
 matplotlib.use("Agg")
 logging.getLogger("matplotlib").setLevel(logging.WARNING)
 
